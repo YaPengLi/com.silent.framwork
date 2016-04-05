@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="color1">#ff0f9d58</color>
+    <color name="color2">#ffdb4437</color>
+    <color name="color3">#ff4285f4</color>
+    <color name="color4">#fff4b400</color>
+    <color name="color5">#ff808080</color>
+    <color name="app_backcolor">#ffF1F0F5</color>
+    <color name="app_color">#FFC801</color>
+    <color name="app_color_yellow">#FFC801</color>
+    <color name="app_color_green">#08BC59</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent2">#33FFFFFF</color>
+    <color name="actionbar_bg">#ffff00</color>
+    <color name="statusbar_bg">#ffff00</color>
+    <color name="holo_blue">#FF33E5B5</color>
+    <color name="title_text_color">#000</color>
+    <color name="text_color_gray">#8D8D8D</color>
+    <color name="subscribe_item_selected_stroke">#ffcc3131</color>
+    <color name="subscribe_item_text_color_pressed">#ffb9b9b9</color>
+    <color name="default_text">#ff454545</color>
+    <color name="subscribe_seperate_line">#ffcdcdcd</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="dialog_white_bg">#fbfbfb</color>
+    <color name="common_half_transparent2">#00000000</color>
+
+    <item name="subscribe_item_text_color_normal" type="color">@color/default_text</item>
+
+    <color name="subscribe_activity_bg">#ffefefef</color>
+    <color name="subscribe_bg">#fff5f5f5</color>
+    <color name="subscribe_tip_text">#ff2e2e2e</color>
+    <color name="subscribe_item_drag_stroke">#ffd2d2d2</color>
+    <color name="subscribe_item_drag_bg">#fff5f5f5</color>
+    <color name="subscribe_item_selected_bg_night">#ff252525</color>
+    <color name="subscribe_item_selected_bg">#ffffffff</color>
+    <color name="subscribe_item_disabled_stroke">#ffd9d9d9</color>
+    <color name="subscribe_item_disabled_bg">#ffefefef</color>
+    <color name="subscribe_item_pressed_stroke">#ffcdcdcd</color>
+    <color name="subscribe_item_pressed_bg">#fff9f9f9</color>
+    <color name="subscribe_item_normal_stroke">#ffcdcdcd</color>
+    <color name="subscribe_item_normal_bg">#fff5f5f5</color>
+    <color name="red">#ffff00</color>
+    <color name="line_color">#929294</color>
+    <color name="bg_uibase">#ffffff</color>
+    <color name="default_edgeeffect_color">#FF33B5E5</color>
+    <color name="yellow">#FFFFBB33</color>
+
+</resources>
