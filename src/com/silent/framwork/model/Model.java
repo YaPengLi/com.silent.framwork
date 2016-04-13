@@ -8,7 +8,8 @@ import com.silent.framwork.exception.FailureException;
 
 public abstract class Model {
 	private String TAG = this.getClass().getSimpleName();
-
+	public int page=0;
+	public int pagecount =20;
 	public Object analysisJSON(String json, Type listType)
 			throws FailureException {
 		if (json.contains("\\")) {

@@ -4,8 +4,8 @@ package com.silent.framwork.activitys;
 import com.silent.framwork.R;
 import com.silent.framwork.tools.ScreenTools;
 import com.silent.framwork.tools.SystemUtils;
-import com.silent.framwork.views.lib.SwipeBackLayout;
-import com.silent.framwork.views.lib.app.SwipeBackActivity;
+import com.silent.framwork.views.swipebacklayout.lib.SwipeBackLayout;
+import com.silent.framwork.views.swipebacklayout.lib.app.SwipeBackActivity;
 
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;

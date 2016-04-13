@@ -72,10 +72,10 @@ public class RequestOptional {
 		// TODO Auto-generated method stub
 		RequestBody initParam = initParam(mContext, formEncodingBuilder,
 				methodName);
-		Request request = new Request.Builder().url(Constant.URL).addHeader("Content-Type", "application/x-www-form-urlencoded")
+		Request request = new Request.Builder().url(Constant.URL_PATH).addHeader("Content-Type", "application/x-www-form-urlencoded")
 				.post(initParam).build();
 		return request;
-	}
+	}   
 
 	/**
 	 * 初始化必选项

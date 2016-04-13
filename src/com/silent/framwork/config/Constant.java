@@ -3,39 +3,22 @@ package com.silent.framwork.config;
 import android.os.Environment;
 
 public interface Constant {
-	public static final  String PATH_BASE = Environment.getExternalStorageDirectory().getAbsolutePath()+"/zhaoshang";
-	public static final String PATH_IMAGE = PATH_BASE+"/image";
-	public static final String PATH_APK = PATH_BASE+"/apk";
-	/** 截屏路径*/
-	public static final String IMG_PATH = PATH_BASE+"/screenshot/";
-	/** 上传图片临时文件名 */
-	public static final String TEMP_IMG = PATH_IMAGE+"/tmp.png";
-	
-	/*---------------------------------接口名称定义------------------------------------------------*/
 	/** 测试地址 */
-	public static final String URL = "http://aiyou.yintai.com";
-
+	public static final String URL_IP = "http://aiyou.yintai.com";
 	/**
-	 * 例：获取验证码
+	 * 接口访问URL
 	 * */
-	public static final String URL_SMSCODE = URL
+	public static final String URL_PATH = URL_IP
 			+ "/Module/mobile/aiyou.string";
-	public static final String GET_VERSION =  "mobile.getversion";
-	public static final String GET_USERINFO = "mobile.getuserinfo";
-	public static final String SIGNIN = "mobile.login";
-	public static final String QUERY_KEYWORD = "mobile.querykeyword";
-	public static final String GET_CODE = "mobile.getcode";
-	public static final String SUBMIT_CODE = "mobile.submitcode";
-	public static final String CHANNELLIST = "mobile.channellist";
-	public static final String KEYLIST = "mobile.keylist";
-	public static final String QUERYCHANNEL = "mobile.querychannel";
-	public static final String FEEDBACK = "mobile.feedback";
-	public static final String SIGN_OUT = "mobile.signout";
-	public static final String SIGN_IN = "mobile.signin";
-	public static final String COLLECT = "mobile.collect";
-	public static final String UPDATE_NAME = "mobile.updatename";
-	public static final String UPDATE_GENDER = "mobile.updategender";
-	public static final String UPDATE_HEADIMG = "mobile.updateheadimg";
+	
+	public static final String PATH_BASE = Environment
+			.getExternalStorageDirectory().getAbsolutePath() + "/zhaoshang";
+	public static final String PATH_IMAGE = PATH_BASE + "/image";
+	public static final String PATH_APK = PATH_BASE + "/apk";
+	/** 截屏路径 */
+	public static final String IMG_PATH = PATH_BASE + "/screenshot/";
+	/** 上传图片临时文件名 */
+	public static final String TEMP_IMG = PATH_IMAGE + "/tmp.png";
 	/*---------------------------------接口状态定义------------------------------------------------*/
 	/** 网络访问失败 */
 	public static final int FAILURE_NET_STATUS = -1;
@@ -67,4 +50,6 @@ public interface Constant {
 	public static final int FAILURE_DES_NULL = -14;
 	/** 系统返回数据异常 */
 	public static final int FAILURE_ERROR = -15;
+	/** 密码为空*/
+	public static final int FAILURE_PASSWORD_STATUS_NULL = -16;
 }

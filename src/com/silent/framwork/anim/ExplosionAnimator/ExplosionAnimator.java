@@ -15,7 +15,7 @@ import android.view.animation.Interpolator;
 @SuppressLint("NewApi")
 public class ExplosionAnimator extends ValueAnimator {
 
-    public static long DEFAULT_DURATION = 0x900;//���鶯������ʱ��
+    public static long DEFAULT_DURATION = 0x500;//���鶯������ʱ��
     private static final Interpolator DEFAULT_INTERPOLATOR = new AccelerateInterpolator(0.6f);
     private static final float END_VALUE = 1.4f;
     private static final float X = ExplosionUtils.dp2Px(5);

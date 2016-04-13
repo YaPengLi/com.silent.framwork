@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.silent.framwork.views.lib;
+package com.silent.framwork.views.swipebacklayout.lib;
 
 import android.content.Context;
 import android.support.v4.view.MotionEventCompat;

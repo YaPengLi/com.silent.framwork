@@ -4,5 +4,21 @@
     <string name="app_name">com.silent.framwork</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="FAILURE_MOBILE_STATUS_NULL">请输入手机号</string>
+    <string name="FAILURE_DEGNLU_STATUS_NULL">登录成功....</string>
+    <string name="FAILURE_YANZHENGMA_STATUS_NULL">验证码发送中,请注意查收</string>
+    <string name="FAILURE_MOBILE_STATUS_LENTHER">手机号长度不符</string>
+    <string name="FAILURE_MOBILE_STATUS_REGULAR">您的手机号不符合规则</string>
+    <string name="FAILURE_MOBILE_STATUS_CHANGE">输入的手机号发生改变,请重新获取验证码</string>
+    <string name="FAILURE_CODE_STATUS_EXISTENCE">手机号已存在</string>
+    <string name="FAILURE_CODE_STATUS_NULL">验证码不能为空</string>
+    <string name="FAILURE_ERROR">系统异常</string>
+    <string name="FAILURE_CODE_STATUS_LENGTH">请输入正确长度的验证码</string>
+    <string name="FAILURE_CODE_STATUS_ILLEGAL">非法状态</string>
+    <string name="FAILURE_JSON_STATUS">返回数据为空或是返回错误</string>
+    <string name="FAILURE_NULL_STATUS">解析数据为空</string>
+    <string name="FAILURE_MOBILE_STATUS">请输入正确的手机号码</string>
+    <string name="FAILURE_PASSWORD_STATUS_NULL">密码不能为空</string>
+    <string name="FAILURE_PASSWORD_LENGTH">请输入六位或以上长度的密码</string>
 
 </resources>

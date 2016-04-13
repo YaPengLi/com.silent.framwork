@@ -1,6 +1,6 @@
-package com.silent.framwork.views.lib.app;
+package com.silent.framwork.views.swipebacklayout.lib.app;
 
-import com.silent.framwork.views.lib.SwipeBackLayout;
+import com.silent.framwork.views.swipebacklayout.lib.SwipeBackLayout;
 
 
 /**

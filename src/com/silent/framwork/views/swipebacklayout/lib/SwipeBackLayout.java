@@ -1,4 +1,4 @@
-package com.silent.framwork.views.lib;
+package com.silent.framwork.views.swipebacklayout.lib;
 
 import android.app.Activity;
 import android.content.Context;

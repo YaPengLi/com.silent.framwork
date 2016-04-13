@@ -1,8 +1,8 @@
-package com.silent.framwork.views.lib.app;
+package com.silent.framwork.views.swipebacklayout.lib.app;
 
 
-import com.silent.framwork.views.lib.SwipeBackLayout;
-import com.silent.framwork.views.lib.Utils;
+import com.silent.framwork.views.swipebacklayout.lib.SwipeBackLayout;
+import com.silent.framwork.views.swipebacklayout.lib.Utils;
 
 import android.annotation.TargetApi;
 import android.os.Build;
